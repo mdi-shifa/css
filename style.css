@@ -1,7 +1,19 @@
-#first{
-    color: rgba(37, 218, 31, 0.562); /* to call a id */
-}
+/* #first{
+    color: rgba(37, 218, 31, 0.562); to call a id
+} */
 .red{
-   color: rgb(209, 38, 195);   /* to call a class */
+   color:black;   /* to call a class */
    background-color: antiquewhite;
+   height: 50px;
+}
+
+.grey{
+    color: rgb(7, 7, 48);
+    background-color: cadetblue;
+    height: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }
