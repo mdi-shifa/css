@@ -6,3 +6,4 @@
 
 4. *= inline style will override the entire page like its style applies to the entire pg
 5. margin and padding= m0+p0(sc)
+6. display:inline - doesn't obey height,width,margin and padding.
