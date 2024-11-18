@@ -1,4 +1,4 @@
-//the margin between two boxes is collapsed
+<!-- the margin between two boxes is collapsed -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +10,27 @@
             margin: 0;
             padding: 0;
         }
+        body{
+            position: relative;
+        }
         .box1{
-            margin: 50px;
-            padding: 50px;
+            position: absolute;
+            margin: 30px;
+            border: 2px solid black;
             background-color: cadetblue;
+            height: 20px;
+            width:200px;
         }
         .box2{
-            margin: 50px;
-            padding: 70px;
+            position:absolute;
+            /*margin: 20px;*/
+            height: 20px;
+            padding: 2px;
             background-color: darkslateblue;
+            width:100%;
+            box-sizing: border-box;
+            border: 2px solid black;
+
         }
     </style>
 </head>
@@ -28,8 +40,7 @@
     </div>
 
     <div class="box2">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa deserunt ad eos placeat ducimus nihil aliquam. Commodi exercitationem culpa vel accusantium iusto adipisci soluta earum tempore impedit incidunt molestias, ut sapiente enim illum? Amet, eaque modi! Praesentium repudiandae molestias provident aperiam, culpa incidunt eaque in iusto illo consectetur aspernatur quas.
-    </div>
+     </div>
     
 </body>
 </html>
